@@ -1,0 +1,23 @@
+# Não enviar chaves e segredos
+secrets.toml
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de ambiente virtual
+.env
+venv/
+env/
+
+# Arquivos do Streamlit
+.streamlit/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
