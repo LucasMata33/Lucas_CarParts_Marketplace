@@ -43,7 +43,7 @@ O projeto combina **Python, Streamlit, Pandas e integração com APIs externas**
 ## ⚡ Instalação e Execução
 1. Clone o repositório:
 ```bash
-git clone https://github.com/LucasMata33/Lucas-CarParts-Marketplace.git
+git clone https://github.com/LucasMata33/Lucas_CarParts_Marketplace.git
 ```
 
 2. Entre na pasta:
