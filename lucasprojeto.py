@@ -147,8 +147,9 @@ motor = st.sidebar.selectbox(
 peca = st.sidebar.selectbox("Escolha a peça", pecas_df['Peça'].unique())
 
 # ---------- Google API ----------
-api_key = "SUA_API_KEY"
-cse_id = "SEU_CSE_ID"
+api_key = st.secrets["google"]["api_key"]
+cse_id = st.secrets["google"]["cse_id"]
+
 
 # ---------- Histórico ----------
 if "history" not in st.session_state:
